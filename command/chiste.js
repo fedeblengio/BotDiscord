@@ -124,9 +124,6 @@ module.exports = {
             "Drácula visita a su médico y le dice: 'Doctor, estoy realmente preocupado. Desde hace un tiempo, no encuentro sangre en mis heces'."
         ];
 
-        console.log(chistes);
-
-
         const chisteRandom = obtenerElementoAleatorio(chistes);
         message.channel.send(chisteRandom);
     }
