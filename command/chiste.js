@@ -1,6 +1,7 @@
 module.exports = {
     description: 'Repite los argumentos dados',
     run: async (message) => {
+        
         const chistes = [
             "¿Por qué los estadounidenses son malos jugadores de ajedrez? Porque perdieron dos torres.",
             "A mis parientes mayores les gustaba burlarse de mí en las bodas, diciendo: '¡Tú serás el siguiente!'. Pero dejaron de hacerlo enseguida cuando empecé a hacer lo mismo yo en los funerales.",
